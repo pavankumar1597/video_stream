@@ -1,5 +1,9 @@
-FROM openjdk:8-jdk-alpine
-VOLUME /tmp
-ARG JAR_FILE
-COPY ${JAR_FILE} app.jar
+FROM openjdk:8
+EXPOSE 8080808080
+ADD target/videostream.jar videostream.jar
 ENTRYPOINT ["java","-jar","videostream.jar"]
+
+
+
+
+
