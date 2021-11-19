@@ -29,7 +29,7 @@ jobs:
       with:
         image: pavankumar1597/videostream
         tags: latest
-        registry: registry-url.io
+        registry: docker.io
         dockerfile: Dockerfile.ci
         username: pavankumar1597
         password: 1jb15me069@sjbiT
